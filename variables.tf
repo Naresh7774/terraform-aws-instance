@@ -17,3 +17,8 @@ variable "sg_ids" {
   type = list
 }
 
+# optional
+variable "tags" {
+  type = map
+  default = {}
+}
