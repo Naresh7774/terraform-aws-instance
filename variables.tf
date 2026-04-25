@@ -13,3 +13,7 @@ variable "instance_type" {
   }
 }
 
+variable "sg_ids" {
+  type = list
+}
+
